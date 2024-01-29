@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: thin gilroy; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.left_nav {
+    width: 100%;
+    height: 10%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    /* position: fixed; */
+    /* z-index: 999; */
+}
+
+.navimg {
+    width: 10%;
+    margin-left: 40px;
+}
+
+.navimg img {
+    height: 60px;
+    cursor: pointer;
+}
+
+.navline {
+    width: 90%;
+    /* background-color: black; */
+}
+
+.navline {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.navline h2 {
+    color: rgba(0, 0, 0, 0.914);
+    font-size: 20px;
+    font-family: thin gilroy;
+    cursor: pointer;
+
+}
+
+.navline p {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.701);
+    font-size: 19px;
+    font-family: thin gilroy;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.navline p:hover{
+    color: rgba(0, 0, 0, 0.552);
+    transition: 0.5s;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(253, 127, 255);
+    background-image: url(https://ik.imagekit.io/sheryians/photed_MVice1qZE.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.right_nav {
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(81, 42, 165); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    /* position: fixed; */
+    /* z-index: 999; */
+
+}
+
+.right_nav p {
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 19px;
+    font-family: thin gilroy;
+    font-weight: 700;
+}
+.right_nav p a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.734);
+
+}
+.right_nav p a:hover{
+    color: rgba(0, 0, 0, 0.552);
+    transition: 0.5s;
+
+}
+#page1_main {
+    width: 90%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    margin-left: 44px;
+    margin-top: 60px;
+}
+
+#page1_main h1 {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+    line-height: 70px;
+    word-spacing: 5px;
+    cursor: pointer;
+}
+
+#page1_main h1 span {
+    color: #289E8A;
+}
+
+#page1_main h4 {
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 2px;
+    
+
+}
+
+#page1_main i {
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 1vw;
+    background-color: rgb(40, 158, 138);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    width: 27px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#page1_main button{
+    padding: 22px 28px;
+    margin-top: 30px;
+    background-color:#289E8A ;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family:  Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+#page1_main button a{
+    text-decoration: none;
+    color: white;
+}
+.down{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-top: 40px;
+}
+.left_down img{
+    background-color: #289E8A;
+    border-radius: 50%;
+    /* margin-top: 60px; */
+    height: 40px;
+    cursor: pointer;
+}
+.right_down p{
+    /* margin-left: 60px; */
+    /* margin-top: 40px; */
+}
+#page2{
+    width: 100%;
+    height: 730px;
+    background-color: white;
+}
+.page2_heading{
+  
+    width: 813px;
+    height: 500px;
+    /* background-color: #289E8A; */
+ 
+    margin-top: 160px;
+    margin-left: 420px;
+}
+.page2_heading h1{
+    font-size: 50px;
+    /* padding-left: 20px; */
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.863);
+    font-family:thin gilroy;
+}
+.page2_heading h3{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.748);
+    font-family: thin gilroy;
+}
+.company{
+   
+    /* background-color: blue; */
+    width: 740px;
+    height: 269px;
+    margin-top: 50px;
+}
+.company1{
+width: 740px;
+height: 134.5px;
+/* background-color: aquamarine; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+}
+.company2{
+    width: 740px;
+    height: 134.5px;
+    background-color: rgb(127, 255, 133);
+}
+.company1 img{
+    height: 70px;
+    background-color: transparent;
+}
